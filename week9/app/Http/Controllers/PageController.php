@@ -38,7 +38,7 @@ class PageController extends Controller
     public function matkul() {
         $arrMatkul = ["Web Framework", "Mobile Programming", "Data Mining", "Citra Digital", "Karakter"];
         return view('matkul',[
-            "title" => "matkul",
+            "title" => "Mata Kuliah",
             "judul" => "Mata Kuliah"
         ])->with('matkul', $arrMatkul);
     }

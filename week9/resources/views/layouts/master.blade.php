@@ -34,7 +34,8 @@
                         <a class="nav-link {{ $title === 'Dosen' ? 'active' : '' }}" href="/dosen">Data Dosen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/matkul">Mata Kuliah</a>
+                        <a class="nav-link {{ $title === 'Mata Kuliah' ? 'active' : '' }}" href="/matkul">Mata
+                            Kuliah</a>
                     </li>
                 </ul>
                 <div class="dropdown">

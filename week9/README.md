@@ -2,7 +2,7 @@
 ## How to use
 Move to work directory then clone
 ```bash
-git clone https://github.com/YayaIniee/CSWebsite.git
+git clone https://github.com/haikaru2001/Learning_laravel.git
 ```
 Then move to your repo
 ```bash

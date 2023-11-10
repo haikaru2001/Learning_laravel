@@ -19,12 +19,12 @@ Route::get('/', function () {
 
 
 Route::get('/mahasiswa', function () {
-    $arrMahasiswa = ["M Haikal Fuady","Udin Tadjudin","Alif Zaky cakraunlimited","Andi M Fikri", "El Thorr"];
+    $arrMahasiswa = ["M Haikal Fuady", "Udin Tadjudin", "Alif Zaky cakraunlimited", "Andi M Fikri", "El Thorr"];
     return view('mahasiswa')->with('mahasiswa', $arrMahasiswa);
 });
 
 Route::get('/dosen', function () {
-    $arrdosen = ["Andi Purnomo","Ahlijati Nuraminah","Aliyah","Sri Hartati", "Muhammad Ihsan Shiddiq"];
+    $arrdosen = ["Andi Purnomo", "Ahlijati Nuraminah", "Aliyah", "Sri Hartati", "Muhammad Ihsan Shiddiq"];
     return view('dosen')->with('dosen', $arrdosen);
 });
 
@@ -32,7 +32,7 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
-Route::get('uni/fmipa/matematika/mahasiswa', function () {
-    $arrMahasiswa = ["M Haikal Fuady","Udin Tadjudin","Alif Zaky cakraunlimited","Andi M Fikri", "El Thorr"];
-    return view('mahasiswa')->with('mahasiswa', $arrMahasiswa);
-})->name('mahasiswa');
+// Route::get('uni/fmipa/matematika/mahasiswa', function () {
+//     $arrMahasiswa = ["M Haikal Fuady", "Udin Tadjudin", "Alif Zaky cakraunlimited", "Andi M Fikri", "El Thorr"];
+//     return view('mahasiswa')->with('mahasiswa', $arrMahasiswa);
+// })->name('mahasiswa');
